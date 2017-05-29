@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gram_panchayat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="example.com.contactlist.GramPanchayatActivity">
+
+    <GridLayout
+        android:id="@+id/gp_view_grid_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <AutoCompleteTextView
+            android:text="AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+        <ImageButton
+            android:text="GP View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showGPData"
+            android:visibility="visible"
+            android:id="@+id/gp_view_btn"
+
+            android:src="@drawable/settingsicon_25"
+
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+
+
+
+    </GridLayout>
+</RelativeLayout>
