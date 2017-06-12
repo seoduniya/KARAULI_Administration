@@ -85,7 +85,7 @@
             android:layout_column="2"
             />
 
-        <ImageButton
+        <!--ImageButton
             android:text="send Group Sms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
             android:layout_toStartOf="@+id/Police_name"
             android:layout_row="1"
             android:layout_column="0"
-            />
+            /-->
 
 
 
